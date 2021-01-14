@@ -6,6 +6,16 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-postcss',
+    {
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: '0vafsxnk',
+        dataset: 'production',
+        watchMode: true, // Updates your pages when you create or update documents
+        token: 'skrGRDDnihxkEHTC3PzckGMlgi679doqAiFOR9ZQvbHWws9w9uzrWAYP5EuwK0zDrlDSVlPdZkBAYMvY3s4CpkGGTitJ6bLJOf5FKWrx4vbNJNHH2iyqwocmqtrPVjAG1PXo8Hyaz93pxNTcYOoInfndzE2G137qeV9mTp1LT3H5WXlSoi9O',
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
