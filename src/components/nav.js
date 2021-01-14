@@ -77,6 +77,14 @@ const Nav = ({props}) => {
                   Pricing
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                  to="/about/"
+                >
+                  About
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
