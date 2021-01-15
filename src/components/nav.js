@@ -23,12 +23,12 @@ const Nav = ({props}) => {
         <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white-500 rounded shadow-md">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
-            <a
+            <Link
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-black"
-              href="#pablo"
+              href="#"
             >
               {avatarTitle}
-            </a>
+            </Link>
             <button
               className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
